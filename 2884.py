@@ -8,6 +8,6 @@ if 0 <= hour <= 23 and 0 <= min <= 59:
             hour = 23 + hour
             min = min + 15
     else:
-        min = min - 45
+        min = min - 45 
 
-print(f"{hour} {min}")
+print(f"{hour} {min}") 
