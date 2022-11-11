@@ -7,4 +7,4 @@ if 0 <= hour <= 23 and 0 <= min <= 59:
         min = (min + add) % 60
     else:
         min = min+add 
-print(f"{hour} {min}")
+print(f"{hour} {min}") 
