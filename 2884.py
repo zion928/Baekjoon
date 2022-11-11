@@ -1,6 +1,6 @@
 hour, min = map(int, input().split())
 if 0 <= hour <= 23 and 0 <= min <= 59:
-    if min < 45:
+    if min < 45: 
         if hour > 0:
             hour = hour - 1
             min = min + 15
