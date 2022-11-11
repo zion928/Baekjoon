@@ -7,5 +7,5 @@ for i in range (n):
     receipt += price
 if sum == receipt:
     print("Yes")
-else:
+else: 
     print("No")
